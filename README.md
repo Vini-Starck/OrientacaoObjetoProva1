@@ -1,14 +1,15 @@
 # OrientacaoObjetoProva1
 Prova 1 de Orientação ao Objeto
 
-public class Esteira {
-    private String Teletrica;
-    private int Vmax;
-    private double Pmax;
-    private String LD;
-    private int Vatual;
 
-    //Construtor
+    public class Esteira {
+       private String Teletrica;
+       private int Vmax;
+       private double Pmax;
+       private String LD;
+       private int Vatual;
+    
+    # Construtor
     public Esteira(String Tele,int Vmax,double Pmax){
         this.Teletrica = Tele;
         this.Vmax =  Vmax;
@@ -94,4 +95,4 @@ public class Esteira {
         
     }
     
-}
+    }
